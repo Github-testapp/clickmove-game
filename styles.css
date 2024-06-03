@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+.no-select {
+    user-select: none;
+    /* テキスト選択を無効にする */
+    -moz-user-select: none;
+    /* Firefox対応 */
+    -webkit-user-select: none;
+    /* Safari対応 */
+    -ms-user-select: none;
+    /* IE10+対応 */
+}
